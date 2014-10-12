@@ -2,7 +2,9 @@
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
 
-  :dependencies [[org.clojure/clojure "1.6.0"]
+  :dependencies [[io.rkn/conformity "0.3.2"]
+                 [com.datomic/datomic-free "0.9.4815.12"]
+                 [org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2311"]
                  [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
                  [racehub/om-bootstrap "0.3.0"]
